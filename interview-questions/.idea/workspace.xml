@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67346b97-2ff1-453b-8488-ca8d05112ddd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TZwindcfyDaL6uGWh3AEH1au2I" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager" selected="Kotlin.FibKt">
+    <configuration name="FibKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="interview-questions" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="FibKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Marshal_listKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="interview-questions" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Marshal_listKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QsortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="interview-questions" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="QsortKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree_iteratorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="interview-questions" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Tree_iteratorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TripletsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="interview-questions" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TripletsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.FibKt" />
+        <item itemvalue="Kotlin.TripletsKt" />
+        <item itemvalue="Kotlin.Tree_iteratorKt" />
+        <item itemvalue="Kotlin.QsortKt" />
+        <item itemvalue="Kotlin.Marshal_listKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67346b97-2ff1-453b-8488-ca8d05112ddd" name="Default Changelist" comment="" />
+      <created>1573681054835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573681054835</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1669" height="377" key="GridCell.Tab.0.bottom" timestamp="1580610992862">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state width="1669" height="377" key="GridCell.Tab.0.bottom/0.23.2560.1344@0.23.2560.1344" timestamp="1580610992862" />
+    <state width="1669" height="377" key="GridCell.Tab.0.center" timestamp="1580610992861">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state width="1669" height="377" key="GridCell.Tab.0.center/0.23.2560.1344@0.23.2560.1344" timestamp="1580610992861" />
+    <state width="1669" height="377" key="GridCell.Tab.0.left" timestamp="1580610992861">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state width="1669" height="377" key="GridCell.Tab.0.left/0.23.2560.1344@0.23.2560.1344" timestamp="1580610992861" />
+    <state width="1669" height="377" key="GridCell.Tab.0.right" timestamp="1580610992862">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state width="1669" height="377" key="GridCell.Tab.0.right/0.23.2560.1344@0.23.2560.1344" timestamp="1580610992862" />
+    <state x="271" y="408" key="NewModule_or_Project.wizard" timestamp="1576985117174">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="271" y="408" key="NewModule_or_Project.wizard/0.23.2560.1344@0.23.2560.1344" timestamp="1576985117174" />
+    <state x="161" y="346" key="SettingsEditor" timestamp="1576984945687">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="161" y="346" key="SettingsEditor/0.23.2560.1344@0.23.2560.1344" timestamp="1576984945687" />
+    <state x="428" y="475" key="com.intellij.ide.util.TipDialog" timestamp="1585188467834">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="428" y="475" key="com.intellij.ide.util.TipDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1585188467834" />
+    <state x="36" y="434" key="new project wizard" timestamp="1576984630837">
+      <screen x="0" y="23" width="2560" height="1344" />
+    </state>
+    <state x="36" y="434" key="new project wizard/0.23.2560.1344@0.23.2560.1344" timestamp="1576984630837" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/triplets.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
