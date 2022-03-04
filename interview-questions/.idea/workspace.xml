@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67346b97-2ff1-453b-8488-ca8d05112ddd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../_1/_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hello-world-kotlin/hello-world-kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hellow_world/hellow_world.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../interviewproblems/interviewproblems.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nyethack/nyethack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rxexamples/rxexamples.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hello/src/Hello.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/FibKt$fibonacci$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/FibKt$fibonacci$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/FibKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/FibKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/InOrderTreeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/InOrderTreeIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/META-INF/interview-questions.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/META-INF/interview-questions.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/Marshal_listKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/Marshal_listKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/QsortKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/QsortKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/Tree_iteratorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/Tree_iteratorKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/interview-questions/TripletsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/interview-questions/TripletsKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,86 +44,58 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Kotlin.FibKt">
-    <configuration name="FibKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="interview-questions" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+  <component name="RunManager" selected="Kotlin.TripletsKt">
+    <configuration name="FibKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FibKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="interview-questions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Marshal_listKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="interview-questions" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="Marshal_listKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Marshal_listKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="interview-questions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QsortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="interview-questions" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="QsortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QsortKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="interview-questions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree_iteratorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="interview-questions" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="Tree_iteratorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree_iteratorKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="interview-questions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripletsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="interview-questions" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration name="TripletsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TripletsKt" />
-      <option name="WORKING_DIRECTORY" />
+      <module name="interview-questions" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.FibKt" />
         <item itemvalue="Kotlin.TripletsKt" />
+        <item itemvalue="Kotlin.FibKt" />
         <item itemvalue="Kotlin.Tree_iteratorKt" />
         <item itemvalue="Kotlin.QsortKt" />
         <item itemvalue="Kotlin.Marshal_listKt" />
@@ -130,6 +114,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="67346b97-2ff1-453b-8488-ca8d05112ddd" name="Default Changelist" comment="" />
@@ -139,36 +124,6 @@
       <updated>1573681054835</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="560" y="411" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593139204294">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state x="560" y="411" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1593139204294" />
-    <state width="1915" height="316" key="GridCell.Tab.0.bottom" timestamp="1593139739569">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1915" height="316" key="GridCell.Tab.0.bottom/0.23.2560.1344@0.23.2560.1344" timestamp="1593139739569" />
-    <state width="1915" height="316" key="GridCell.Tab.0.center" timestamp="1593139739568">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1915" height="316" key="GridCell.Tab.0.center/0.23.2560.1344@0.23.2560.1344" timestamp="1593139739568" />
-    <state width="1915" height="316" key="GridCell.Tab.0.left" timestamp="1593139739568">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1915" height="316" key="GridCell.Tab.0.left/0.23.2560.1344@0.23.2560.1344" timestamp="1593139739568" />
-    <state width="1915" height="316" key="GridCell.Tab.0.right" timestamp="1593139739569">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state width="1915" height="316" key="GridCell.Tab.0.right/0.23.2560.1344@0.23.2560.1344" timestamp="1593139739569" />
-    <state x="428" y="475" key="com.intellij.ide.util.TipDialog" timestamp="1593962774411">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state x="428" y="475" key="com.intellij.ide.util.TipDialog/0.23.2560.1344@0.23.2560.1344" timestamp="1593962774411" />
-    <state x="201" y="280" key="new project wizard" timestamp="1593962816637">
-      <screen x="0" y="23" width="2560" height="1344" />
-    </state>
-    <state x="201" y="280" key="new project wizard/0.23.2560.1344@0.23.2560.1344" timestamp="1593962816637" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

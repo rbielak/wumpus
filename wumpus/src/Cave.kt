@@ -1,6 +1,7 @@
 import kotlin.random.Random
 
-class Cave {
+// Object Cave is a singleton
+object Cave {
 
     val rooms: Array<Room> =
         // Rooms in the cave.
@@ -28,13 +29,42 @@ class Cave {
             Room(20, arrayOf(13, 19, 16))
             )
 
-    val rand = Random(1234)
-    var wumpusRoom = 0
+    private val rand = Random(System.currentTimeMillis())
+
+    var wumpusRoom = 0;
+
+    fun nearBats(room: Room) : Boolean {
+        room.tunnels.forEach { r -> if (Cave.rooms[r - 1].hasBats) return true }
+        return false
+    }
+
+    fun nearPit(room: Room) : Boolean {
+        room.tunnels.forEach { r -> if (Cave.rooms[r - 1].hasPit) return true }
+        return false
+    }
+
+    fun nearWumpus(room: Room) : Boolean {
+        return wumpusRoom in room.tunnels
+    }
+
+    fun randomwSafeRoom() : Room {
+        var nr = rand.nextInt(1, 20)
+        while (rooms[nr].hasPit || rooms[nr].hasBats || nr == wumpusRoom) {
+            nr = rand.nextInt(1, 20)
+        }
+        return rooms[nr]
+    }
+
+    fun moveWumpus() {
+        val wr = rooms[wumpusRoom - 1];
+        val i = rand.nextInt(0,2)
+        wumpusRoom = wr.tunnels[i]
+    }
 
     init{
         this.wumpusRoom = rand.nextInt(1, 20)
         // Add bats
-        for (i in arrayOf(1,2,3)) {
+        for (i in 1..2) {
             val bats = rand.nextInt(1, 20)
             rooms[bats-1].hasBats = true
         }
