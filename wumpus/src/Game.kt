@@ -9,7 +9,7 @@ class Game {
             currentRoom = Cave.rooms[newRoom - 1]
             if (Cave.nearBats(currentRoom)) {
                 println("Oh, no there are bats in this room!!!")
-                currentRoom = Cave.randomwSafeRoom()
+                currentRoom = Cave.randomSafeRoom()
                 println("You runway to room ${currentRoom.number}")
             }
             if (newRoom == Cave.wumpusRoom) {

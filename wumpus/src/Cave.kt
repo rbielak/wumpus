@@ -31,15 +31,15 @@ object Cave {
 
     private val rand = Random(System.currentTimeMillis())
 
-    var wumpusRoom = 0;
+    var wumpusRoom = 0
 
     fun nearBats(room: Room) : Boolean {
-        room.tunnels.forEach { r -> if (Cave.rooms[r - 1].hasBats) return true }
+        room.tunnels.forEach { r -> if (rooms[r - 1].hasBats) return true }
         return false
     }
 
     fun nearPit(room: Room) : Boolean {
-        room.tunnels.forEach { r -> if (Cave.rooms[r - 1].hasPit) return true }
+        room.tunnels.forEach { r -> if (rooms[r - 1].hasPit) return true }
         return false
     }
 
@@ -47,7 +47,7 @@ object Cave {
         return wumpusRoom in room.tunnels
     }
 
-    fun randomwSafeRoom() : Room {
+    fun randomSafeRoom() : Room {
         var nr = rand.nextInt(1, 20)
         while (rooms[nr].hasPit || rooms[nr].hasBats || nr == wumpusRoom) {
             nr = rand.nextInt(1, 20)
@@ -56,7 +56,7 @@ object Cave {
     }
 
     fun moveWumpus() {
-        val wr = rooms[wumpusRoom - 1];
+        val wr = rooms[wumpusRoom - 1]
         val i = rand.nextInt(0,2)
         wumpusRoom = wr.tunnels[i]
     }
