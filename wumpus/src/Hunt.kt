@@ -1,7 +1,6 @@
-/*
-  Hunt thw wumpus game.
+/**
+ * Main class for Hunt The Wumpus game.
  */
-
 fun main(args: Array<String>) {
     println("Welcome to the hunt for Wumpus!")
     val game = Game()
