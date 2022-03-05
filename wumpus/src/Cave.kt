@@ -52,7 +52,7 @@ object Cave {
 
     fun randomSafeRoom() : Room {
         var nr = rand.nextInt(1, 20)
-        while (rooms[nr].hasPit || rooms[nr].hasBats || nr == wumpusRoom) {
+        while (nr == pitRoom || rooms[nr].hasBats || nr == wumpusRoom) {
             nr = rand.nextInt(1, 20)
         }
         return rooms[nr]
