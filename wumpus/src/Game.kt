@@ -12,11 +12,11 @@ class Game {
                 currentRoom = Cave.randomSafeRoom()
                 println("You runway to room ${currentRoom.number}")
             }
-            if (newRoom == Cave.wumpusRoom) {
+            if (Cave.nearWumpus(currentRoom)) {
                 println("Hrumph! You were eaten by the wumpus!")
                 return false
             }
-            if (currentRoom.hasPit) {
+            if (Cave.nearBats(currentRoom)) {
                 println("Ooops! You have fallen into the pit!")
                 return false
             }
@@ -32,8 +32,9 @@ class Game {
         }
         else {
             if (roomNumber in currentRoom.tunnels) {
-                if (roomNumber == Cave.wumpusRoom) {
+                if (Cave.wumpusRoomNumber(roomNumber)) {
                     println("Wahoo! You got the wumpus!!!!")
+                    Cave.killWumpus()
                     return false
                 }
                 arrows -= 1
@@ -72,10 +73,20 @@ class Game {
                 else -> println("Huh?! try again")
             }
             Cave.moveWumpus()
-            if (Cave.wumpusRoom == currentRoom.number) {
+            if (Cave.wumpusRoomNumber(currentRoom.number)) {
                 println("Hrmph! Wumpus walked in and ate you!")
                 alive = false
             }
         }
     }
+}
+
+/**
+ * Main class for Hunt The Wumpus game.
+ */
+fun main(args: Array<String>) {
+    println("Welcome to the hunt for Wumpus!")
+    val game = Game()
+    game.play()
+    println("Goodbye!")
 }

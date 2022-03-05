@@ -31,20 +31,23 @@ object Cave {
 
     private val rand = Random(System.currentTimeMillis())
 
-    var wumpusRoom = 0
+    private var wumpusRoom = 0
+    private var pitRoom = 0
 
+    // TODO: make bat rooms array of ints
     fun nearBats(room: Room) : Boolean {
         room.tunnels.forEach { r -> if (rooms[r - 1].hasBats) return true }
         return false
     }
 
-    fun nearPit(room: Room) : Boolean {
-        room.tunnels.forEach { r -> if (rooms[r - 1].hasPit) return true }
-        return false
-    }
+    fun nearPit(room: Room) = pitRoom in room.tunnels
 
-    fun nearWumpus(room: Room) : Boolean {
-        return wumpusRoom in room.tunnels
+    fun nearWumpus(room: Room) = wumpusRoom in room.tunnels
+
+    fun wumpusRoomNumber(rn: Int) = wumpusRoom == rn
+
+    fun killWumpus() {
+        wumpusRoom = -1
     }
 
     fun randomSafeRoom() : Room {
@@ -56,9 +59,11 @@ object Cave {
     }
 
     fun moveWumpus() {
-        val wr = rooms[wumpusRoom - 1]
-        val i = rand.nextInt(0,2)
-        wumpusRoom = wr.tunnels[i]
+        if (wumpusRoom > 0) {
+            val wr = rooms[wumpusRoom - 1]
+            val i = rand.nextInt(0, 2)
+            wumpusRoom = wr.tunnels[i]
+        }
     }
 
     init{
@@ -69,6 +74,6 @@ object Cave {
             rooms[bats-1].hasBats = true
         }
         // Add pit
-        rooms[rand.nextInt(1, 20)].hasPit = true
+        pitRoom = rand.nextInt(1, 20)
     }
 }
