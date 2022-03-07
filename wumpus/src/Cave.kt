@@ -33,18 +33,25 @@ object Cave {
 
     private var wumpusRoom = 0
     private var pitRoom = 0
+    private var batRooms: MutableList<Int> = mutableListOf<Int>()
 
     // TODO: make bat rooms array of ints
     fun nearBats(room: Room) : Boolean {
-        room.tunnels.forEach { r -> if (rooms[r - 1].hasBats) return true }
+        room.tunnels.forEach { r -> if (r in batRooms) return true }
         return false
     }
 
+    fun isBatsRoom(room: Room) = room.number in batRooms
+
     fun nearPit(room: Room) = pitRoom in room.tunnels
+
+    fun isPitRoom(room: Room) = room.number == pitRoom
 
     fun nearWumpus(room: Room) = wumpusRoom in room.tunnels
 
-    fun wumpusRoomNumber(rn: Int) = wumpusRoom == rn
+    fun isWumpusRoom(rn: Int) = wumpusRoom == rn
+
+    fun isWumpusRoom(room: Room) = room.number == wumpusRoom
 
     fun killWumpus() {
         wumpusRoom = -1
@@ -52,7 +59,7 @@ object Cave {
 
     fun randomSafeRoom() : Room {
         var nr = rand.nextInt(1, 20)
-        while (nr == pitRoom || rooms[nr].hasBats || nr == wumpusRoom) {
+        while (nr in intArrayOf(pitRoom, wumpusRoom) || nr in batRooms) {
             nr = rand.nextInt(1, 20)
         }
         return rooms[nr]
@@ -69,9 +76,9 @@ object Cave {
     init{
         this.wumpusRoom = rand.nextInt(1, 20)
         // Add bats
-        for (i in 1..2) {
+        for (i in 0..1) {
             val bats = rand.nextInt(1, 20)
-            rooms[bats-1].hasBats = true
+            batRooms.add(bats)
         }
         // Add pit
         pitRoom = rand.nextInt(1, 20)

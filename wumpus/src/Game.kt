@@ -7,16 +7,16 @@ class Game {
     private fun moveToRoom(newRoom: Int) : Boolean {
         if (newRoom in currentRoom.tunnels) {
             currentRoom = Cave.rooms[newRoom - 1]
-            if (Cave.nearBats(currentRoom)) {
+            if (Cave.isBatsRoom(currentRoom)) {
                 println("Oh, no there are bats in this room!!!")
                 currentRoom = Cave.randomSafeRoom()
                 println("You runway to room ${currentRoom.number}")
             }
-            if (Cave.nearWumpus(currentRoom)) {
+            if (Cave.isWumpusRoom(currentRoom)) {
                 println("Hrumph! You were eaten by the wumpus!")
                 return false
             }
-            if (Cave.nearBats(currentRoom)) {
+            if (Cave.isPitRoom(currentRoom)) {
                 println("Ooops! You have fallen into the pit!")
                 return false
             }
@@ -32,7 +32,7 @@ class Game {
         }
         else {
             if (roomNumber in currentRoom.tunnels) {
-                if (Cave.wumpusRoomNumber(roomNumber)) {
+                if (Cave.isWumpusRoom(roomNumber)) {
                     println("Wahoo! You got the wumpus!!!!")
                     Cave.killWumpus()
                     return false
@@ -73,7 +73,7 @@ class Game {
                 else -> println("Huh?! try again")
             }
             Cave.moveWumpus()
-            if (Cave.wumpusRoomNumber(currentRoom.number)) {
+            if (Cave.isWumpusRoom(currentRoom.number)) {
                 println("Hrmph! Wumpus walked in and ate you!")
                 alive = false
             }
